@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Car insurance</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Matchmaker</h1>
+
+      <p>Which celebrity should you have babies with:</p>
+
+      <form id="matchmaker">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="personality">Personality</label>
+        <select id="personality">
+          <option value="timid">Timid</option>
+          <option value="aggressive">Closed-Off</option>
+          <option value="peopleperson">People-Person</option>
+          <option value="jokester">Jokester</option>
+        </select>
+
+        <button type="submit" class="btn">Who's My Celebrity Soulmate</button>
+      </form>
+
+      <div id="statement">
+        <p>You will have babies with this $<span id="celebrity"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
