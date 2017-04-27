@@ -5,3 +5,7 @@
 #statement {
   display: none;
 }
+img {
+  background-image: url(.. /img/background-love.png);
+  background-repeat: repeat-x;
+}
